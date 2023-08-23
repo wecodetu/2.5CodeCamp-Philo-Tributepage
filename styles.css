@@ -1,0 +1,62 @@
+#image{
+    display:block;
+    max-width:100%;
+    height:auto;
+    width: 1080px;
+    object-fit: cover;
+}
+
+.logo{
+   height: 40px;
+   display: inline-flex;
+   align-content:center;
+   border-bottom: 0;
+}   
+
+body{
+    padding: 20px;
+    background-image: url('./bgphilo.png'), url('./bgphilo1.png');
+    background-color: #99faaf;
+}
+
+#img-div{
+    background-color: whitesmoke;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+    width: 100%;
+}
+
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #698498;
+}
+
+.headh,.p1{
+    text-align: center; 
+    color: black;
+} 
+
+
+.bottom > a{
+    text-align: center; 
+}
+
+ul#tribute-info{
+    list-style-type:none;
+
+}
+p,ul{
+    
+    color: #698498;
+} 
+.bottom{
+    background-color: whitesmoke;
+}
+
+.img-caption{
+    color: white;
+}
